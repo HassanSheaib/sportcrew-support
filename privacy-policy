@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sports Mates – Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for Sports Mates, published by Hassan Sheaib." />
+  <style>
+    :root{
+      --brand:#537D5D; --text:#222; --muted:#555; --bg:#fafafa; --card:#fff; --border:#e6e6e6;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:var(--text); background:var(--bg);
+    }
+    .wrap{
+      max-width:900px; margin:0 auto; padding:48px 20px;
+    }
+    header{
+      text-align:center; margin-bottom:28px;
+    }
+    h1{font-size:2rem; margin:.2rem 0 0 0; color:var(--brand)}
+    .sub{color:var(--muted); margin:.25rem 0 0 0}
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:14px;
+      padding:28px; margin:18px 0; box-shadow:0 2px 10px rgba(0,0,0,.04);
+    }
+    h2{font-size:1.25rem; margin:0 0 .75rem 0; color:#111}
+    p{line-height:1.65; margin:.5rem 0}
+    ul{margin:.4rem 0 .8rem 1.25rem}
+    li{margin:.35rem 0}
+    a{color:var(--brand); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .muted{color:var(--muted)}
+    footer{margin-top:28px; text-align:center; color:var(--muted); font-size:.9rem}
+    .badge{
+      display:inline-block; padding:.25rem .6rem; border:1px solid var(--border); border-radius:999px;
+      background:#f6f6f6; font-size:.85rem; color:#333; margin:.25rem .25rem 0 0;
+    }
+    @media (max-width:640px){ .card{padding:20px} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge">Publisher: Hassan Sheaib</div>
+      <div class="badge">App: Sports Mates</div>
+      <h1>Privacy Policy</h1>
+      <p class="sub">Effective date: October 16, 2025</p>
+    </header>
+
+    <section class="card">
+      <h2>Overview</h2>
+      <p>Welcome to <strong>Sports Mates</strong> (“we”, “our”, or “us”). We value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, store, and share information when you use the Sports Mates mobile application (the “App”). By using the App, you agree to this Policy.</p>
+    </section>
+
+    <section class="card">
+      <h2>1) Information We Collect</h2>
+      <p><strong>Account</strong>: username, password (hashed), and email (for verification and recovery).</p>
+      <p><strong>Profile</strong>: gender and year of birth (to match eligibility for games).</p>
+      <p><strong>Location</strong>: approximate, used in real time to show nearby games. This location is not stored on our servers.</p>
+      <p><strong>Usage & Community</strong>: merit points, participation history (joined/left/deleted games), feedback and reports (attendance/behavior/level notes).</p>
+      <p><strong>User-Generated Content</strong>: chat messages in game rooms; messages sent to in-app support.</p>
+      <p><strong>Device</strong>: push notification tokens and basic device context (e.g., OS, language) to deliver notifications and localize the experience.</p>
+    </section>
+
+    <section class="card">
+      <h2>2) How We Use Your Information</h2>
+      <ul>
+        <li>Create and manage your account and profile.</li>
+        <li>Enable creating and joining games; filter games by eligibility.</li>
+        <li>Provide in-app communication (chat) and notifications about game updates.</li>
+        <li>Maintain community trust via merit and weekly quota systems.</li>
+        <li>Offer support and resolve technical issues.</li>
+        <li>Improve, secure, and personalize the App.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>3) Data Storage & Security</h2>
+      <p>Data is stored in a PostgreSQL database on DigitalOcean infrastructure. We apply technical and organizational measures to protect data from unauthorized access, alteration, disclosure, or destruction. Real-time location is used on device and not stored server-side.</p>
+    </section>
+
+    <section class="card">
+      <h2>4) Sharing of Information</h2>
+      <p>We do not sell or rent personal data. We may share limited information with trusted providers strictly to operate core features:</p>
+      <ul>
+        <li><strong>SendGrid</strong> – email delivery for verification and recovery.</li>
+        <li><strong>Expo</strong> – push notifications about game status and updates.</li>
+      </ul>
+      <p>These providers process data under contractual obligations and applicable law. We may disclose information when required by law or to protect users’ rights and safety.</p>
+      <p><strong>Administrator Access:</strong> authorized administrators may access account data, chat messages, feedback, and activity history solely for moderation, security, fraud prevention, and support.</p>
+    </section>
+
+    <section class="card">
+      <h2>5) Your Rights & Choices</h2>
+      <ul>
+        <li>Access and update your account information.</li>
+        <li>Request deletion of your account and associated personal data.</li>
+        <li>Manage notifications in your device settings.</li>
+        <li>Change language (English/Arabic) and theme (light/dark) within the App.</li>
+      </ul>
+      <p>To exercise rights, contact us at <a href="mailto:hhs.softwaredev@gmail.com">hhs.softwaredev@gmail.com</a>. We will respond in a reasonable timeframe.</p>
+    </section>
+
+    <section class="card">
+      <h2>6) Data Retention</h2>
+      <p>We retain data while your account remains active. Upon account deletion, we delete or anonymize personal data within a reasonable period, unless retention is required by law or for legitimate purposes (e.g., fraud prevention or dispute resolution).</p>
+    </section>
+
+    <section class="card">
+      <h2>7) Children’s Privacy</h2>
+      <p>The App is intended for users aged 13 and above. We do not knowingly collect data from children under 13. If we learn that we have collected such data, we will promptly delete it.</p>
+    </section>
+
+    <section class="card">
+      <h2>8) International Transfers</h2>
+      <p>Your data may be processed on servers located outside your country. We implement safeguards consistent with applicable laws to protect your information during such transfers.</p>
+    </section>
+
+    <section class="card">
+      <h2>9) Changes to This Policy</h2>
+      <p>We may update this Policy to reflect changes in the App or legal requirements. We will post updates here with a new “Effective date.” Continued use of the App after changes indicates acceptance.</p>
+    </section>
+
+    <section class="card">
+      <h2>10) Contact</h2>
+      <p>If you have questions or requests regarding this Policy or our data practices, contact us at:<br />
+      <strong>Email:</strong> <a href="mailto:hhs.softwaredev@gmail.com">hhs.softwaredev@gmail.com</a></p>
+    </section>
+
+    <footer>
+      © 2025 Hassan Sheaib. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
