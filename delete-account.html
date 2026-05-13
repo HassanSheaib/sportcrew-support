@@ -1,93 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sport Crew - Delete Account</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SportCrew – Delete Account</title>
+  <meta name="description" content="Account deletion instructions for SportCrew." />
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: auto;
-            padding: 40px 20px;
-            line-height: 1.7;
-            color: #222;
-        }
+  <style>
+    :root{
+      --brand:#537D5D;
+      --text:#222;
+      --muted:#555;
+      --bg:#fafafa;
+      --card:#fff;
+      --border:#e6e6e6;
+    }
 
-        h1, h2 {
-            color: #111;
-        }
+    *{
+      box-sizing:border-box
+    }
 
-        .email {
-            font-weight: bold;
-            color: #0066cc;
-        }
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:var(--text);
+      background:var(--bg);
+    }
 
-        .section {
-            margin-top: 40px;
-        }
-    </style>
+    .wrap{
+      max-width:900px;
+      margin:0 auto;
+      padding:48px 20px;
+    }
+
+    header{
+      text-align:center;
+      margin-bottom:28px;
+    }
+
+    h1{
+      font-size:2rem;
+      margin:.2rem 0 0 0;
+      color:var(--brand)
+    }
+
+    .sub{
+      color:var(--muted);
+      margin:.25rem 0 0 0
+    }
+
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:28px;
+      margin:18px 0;
+      box-shadow:0 2px 10px rgba(0,0,0,.04);
+    }
+
+    h2{
+      font-size:1.25rem;
+      margin:0 0 .75rem 0;
+      color:#111
+    }
+
+    p{
+      line-height:1.65;
+      margin:.5rem 0
+    }
+
+    ul{
+      margin:.4rem 0 .8rem 1.25rem
+    }
+
+    li{
+      margin:.35rem 0
+    }
+
+    a{
+      color:var(--brand);
+      text-decoration:none
+    }
+
+    a:hover{
+      text-decoration:underline
+    }
+
+    .muted{
+      color:var(--muted)
+    }
+
+    footer{
+      margin-top:28px;
+      text-align:center;
+      color:var(--muted);
+      font-size:.9rem
+    }
+
+    .badge{
+      display:inline-block;
+      padding:.25rem .6rem;
+      border:1px solid var(--border);
+      border-radius:999px;
+      background:#f6f6f6;
+      font-size:.85rem;
+      color:#333;
+      margin:.25rem .25rem 0 0;
+    }
+
+    @media (max-width:640px){
+      .card{
+        padding:20px
+      }
+    }
+  </style>
 </head>
+
 <body>
+  <div class="wrap">
 
-    <h1>Delete Your Sport Crew Account</h1>
+    <header>
+      <div class="badge">Publisher: Hassan Sheaib</div>
+      <div class="badge">App: SportCrew</div>
 
-    <p>
-        Sport Crew users can request deletion of their account and associated data.
-    </p>
+      <h1>Delete Account</h1>
 
-    <div class="section">
-        <h2>How to Request Account Deletion</h2>
+      <p class="sub">
+        Request deletion of your SportCrew account and associated data
+      </p>
+    </header>
 
-        <p>
-            To request deletion of your Sport Crew account, please contact us at:
-        </p>
+    <section class="card">
+      <h2>How to Request Account Deletion</h2>
 
-        <p class="email">
-            support@sport-crew.com
-        </p>
+      <p>
+        SportCrew users can request deletion of their account and associated data
+        by contacting us through the email below.
+      </p>
 
-        <p>
-            Please include the email address or phone number associated with your account.
-            We may contact you to verify account ownership before processing the request.
-        </p>
-    </div>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:hhs.softwaredev@gmail.com">
+          hhs.softwaredev@gmail.com
+        </a>
+      </p>
 
-    <div class="section">
-        <h2>Data That Will Be Deleted</h2>
+      <p>
+        Please include the email address associated with your
+        SportCrew account. We may request additional verification information
+        before processing deletion requests.
+      </p>
+    </section>
 
-        <ul>
-            <li>User profile information</li>
-            <li>Account credentials</li>
-            <li>Game participation data</li>
-            <li>Notifications</li>
-            <li>Discussion and chat data where applicable</li>
-        </ul>
-    </div>
+    <section class="card">
+      <h2>Data That Will Be Deleted</h2>
 
-    <div class="section">
-        <h2>Data That May Be Retained</h2>
+      <ul>
+        <li>Profile information</li>
+        <li>Account credentials</li>
+        <li>Game participation history</li>
+        <li>Notifications</li>
+        <li>Chat and discussion data where applicable</li>
+        <li>Support conversations associated with the account</li>
+      </ul>
+    </section>
 
-        <p>
-            Certain information may be retained temporarily for legal, security,
-            fraud prevention, dispute resolution, and operational purposes.
-        </p>
+    <footer>
+      © 2025 Hassan Sheaib. All rights reserved.
+    </footer>
 
-        <p>
-            Retained data may be stored for up to 30 days unless a longer
-            retention period is required by law.
-        </p>
-    </div>
-
-    <div class="section">
-        <h2>Deletion Processing Time</h2>
-
-        <p>
-            Account deletion requests are typically processed within 30 days
-            after ownership verification is completed.
-        </p>
-    </div>
-
+  </div>
 </body>
 </html>
